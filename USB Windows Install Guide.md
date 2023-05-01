@@ -1,42 +1,31 @@
 USB: Windows 10/11 Install Steps
 ======
 
-
 Installing Windows 10 or 11 from a USB drive is a straightforward process. Before you begin, make sure you have a USB drive with at least 8 GB of storage. Follow along to get the Windows 10/11 installation media file, create the bootable USB, install Windows, and configure for operation.
-
 
 ## Create a UEFI-bootable USB drive
 
->See [Custom Install](1) at the end for Advanced instructions.
+>See [Custom Install](#using-rufus-to-make-a-usb-bootable) at the end for Advanced instructions.
 
 1. Download the [Windows 10](https://www.microsoft.com/en-us/software-download/windows10) or [Windows 11](https://www.microsoft.com/en-us/software-download/windows11) Media Creation Tool directly off of the Microsoft website.
 
-
 2. Run the Media Creation Tool and accept the license terms.
-
 
 3. Select the `Create installation media (USB flash drive, DVD, or ISO file) for another PC` option and click `Next`.
 
-
 4. Choose the edition `Home/Pro`, and architecture [^1] `x86/x64`, then click `Next`.
-
 
 5. Select `USB flash drive` and click `Next`.
 
-
 6. Choose the correct USB drive from the list.
-
 
 **THIS WILL PERMANENTLY ERASE ALL DATA ON WHATEVER DRIVE YOU SELECT**
 
-
 7. Click `Next`, and the tool will download and create a bootable Windows 10/11 USB drive.
-
 
 ## Prepare your computer
 
->See [Custom Install](2) at the end for Advanced instructions.
-
+>See [Custom Install](#using-diskpart-to-clean-drive) at the end for Advanced instructions.
 
 1. Turn off your computer.
 
@@ -130,8 +119,9 @@ Installing Windows 10 or 11 from a USB drive is a straightforward process. Befor
 Your Windows 10/11 installation is now complete. You can remove the USB drive and start using your computer.
 
 # Custom Install Procedures
-[1]
 
-[2]
+## #Using Rufus to Make a USB Bootable
+
+## #Using Diskpart to Clean Drive
 
 [^1]: This only applies to Windows 10, as Windows 11 is x64 only.
