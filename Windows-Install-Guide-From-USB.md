@@ -3,7 +3,7 @@ Windows Install Guide From USB
 
 Installing Windows 10 or 11 from a USB drive is a straightforward process. Before you begin, make sure you have a USB drive with at least 8 GB of storage. Follow along to get the Windows 10/11 installation media file, create the bootable USB, install Windows, and configure her for operation.
 
-## Create a UEFI-bootable USB drive
+## #Create a UEFI-bootable USB drive
 
 > **ADVANCED ONLY!** See [Using Rufus to Make a USB Bootable](#using-rufus-to-make-a-usb-bootable) at the end for advanced instructions.
 
@@ -21,7 +21,7 @@ Installing Windows 10 or 11 from a USB drive is a straightforward process. Befor
 
 6. Click `Next`, and the tool will download and create a bootable Windows 10/11 USB drive.
 
-## Prepare your computer
+## #Prepare your computer
 
 1. Turn off your computer.
 
@@ -35,7 +35,7 @@ Installing Windows 10 or 11 from a USB drive is a straightforward process. Befor
 
 4. In the boot menu, select your USB drive to be the first boot device and press `Enter`.
 
-## Install Windows 10/11
+## #Install Windows 10/11
 
 > **ADVANCED ONLY!** [Using Diskpart to Clean Drive](#using-diskpart-to-clean-drive) at the end for advanced instructions.
 
@@ -65,7 +65,7 @@ Installing Windows 10 or 11 from a USB drive is a straightforward process. Befor
 
 10. The installation process will begin, and your computer may restart several times during the process. Be patient, as this can take some time.
 
-## Complete the setup:
+## #Complete the setup:
 
 1. After the installation, Windows 10/11 will guide you through the setup process.
 
@@ -75,7 +75,7 @@ Installing Windows 10 or 11 from a USB drive is a straightforward process. Befor
 
 4. After the setup has been completed and has had another reboot, you will be at the Windows 10/11 desktop.
 
-## Install drivers and updates:
+## #Install drivers and updates:
 
 1. Connect to the internet, if you haven't already.
 
@@ -89,7 +89,7 @@ Your Windows 10/11 installation is now complete. You can remove the USB drive an
 
 # Custom Install Procedures
 
-## Using Rufus to Make a USB Bootable
+## #Using Rufus to Make a USB Bootable
 
 1. Download the [Windows 10](https://www.microsoft.com/en-us/software-download/windows10) or [Windows 11](https://www.microsoft.com/en-us/software-download/windows11) Media Creation Tool directly off of the Microsoft website.
 
@@ -115,7 +115,7 @@ Your Windows 10/11 installation is now complete. You can remove the USB drive an
 
 11. Next up is to [prepare your computer](#prepare-your-computer).
 
-## Using Diskpart to Clean Drive
+## #Using Diskpart to Clean Drive
 
 >You must have completed up to but not [Install Windows 10/11](#install-windows-10/11) to continue in this section.
 
@@ -152,4 +152,4 @@ list volume
 exit
 ```
 
-4. You may close the command prompt window and continue the installation of [Install Windows 10/11](#install-windows-10/11).
+4. You may close the command prompt window and continue the installation at [Install Windows 10/11](#install-windows-10/11).
