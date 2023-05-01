@@ -9,13 +9,11 @@ Installing Windows 10 or 11 from a USB drive is a straightforward process. Befor
 
 1. Download the [Windows 10](https://www.microsoft.com/en-us/software-download/windows10) or [Windows 11](https://www.microsoft.com/en-us/software-download/windows11) Media Creation Tool directly off of the Microsoft website.
 
-2. Run the Media Creation Tool and accept the license terms.
+2. Run the Media Creation Tool as administrator and accept the license terms.
 
-3. Select the `Create installation media (USB flash drive, DVD, or ISO file) for another PC` option and click `Next`.
+4. Choose `Use the recommended options for this computer` and then click `Next`.
 
-4. Choose the edition `Home/Pro`, and architecture [^1] `x86/x64`, then click `Next`.
-
-5. Select `USB flash drive` and click `Next`.
+5. Select the `USB flash drive` option and click `Next`.
 
 6. Choose the correct USB drive from the list.
 
@@ -43,7 +41,7 @@ Installing Windows 10 or 11 from a USB drive is a straightforward process. Befor
 
 1. Wait for the Windows 10/11 setup screen to appear.
 
-2. If asked, select the appropriate language, time/currency format, and input method, then click `Next`.
+2. If prompted select the appropriate language, time/currency format, and input method, then click `Next`.
 
 3. Click `Install now`.
 
@@ -95,29 +93,27 @@ Your Windows 10/11 installation is now complete. You can remove the USB drive an
 
 1. Download the [Windows 10](https://www.microsoft.com/en-us/software-download/windows10) or [Windows 11](https://www.microsoft.com/en-us/software-download/windows11) Media Creation Tool directly off of the Microsoft website.
 
-2. Run the Media Creation Tool as administrator.
+2. Run the Media Creation Tool as administrator and accept the license terms.
 
-4. Select the `Create installation media (USB flash drive, DVD, or ISO file) for another PC` option and click `Next`.
+3. Choose `Use the recommended options for this computer` and then click `Next`.
+ 
+4. Select `ISO file` and click `Next`.
 
-4. Choose a language, edition `Windows 10/11`, and architecture [^1] `64-bit (x64)`, then click `Next`.
+5. Choose a location to save the ISO.
 
-5. Select `ISO file` and click `Next`.
+6. Download [Rufus](https://rufus.ie/en/) and run as administrator.
 
-6. Choose a location to save the ISO.
-
-7. Download [Rufus](https://rufus.ie/en/) then run as administrator.
-
-8. For `Device` at the top, choose the USB drive you want to use as the bootable drive.
+7. For `Device` at the top, choose the USB drive you want to use as the bootable drive.
 
 > **WARNING** *THIS ACTION WILL FORMAT ALL THE DATA ON THE SELECTED DRIVE, ENSURE YOU HAVE SELECTED THE CORRECT ONE AND HAVE THE DATA BACKED UP BEFORE CONTINUING.*
 
-9. Click on the `SELECT` box to open the file manager and select the newly created ISO.
+8. Click on the `SELECT` box to open the file manager and select the newly created ISO.
 
-10. Ensure the partition scheme is `GPT` for UEFI systems or `MBR` for BIOS.
+9. Ensure the partition scheme is `GPT` for UEFI systems or `MBR` for BIOS.
 
-11. Click `Start` to continue. You may have popups that require acknowledgment.
+10. Click `Start` to continue. You may have popups that require acknowledgment.
 
-12. Next up is to [prepare your computer](#prepare-your-computer).
+11. Next up is to [prepare your computer](#prepare-your-computer).
 
 ## #Using Diskpart to Clean Drive
 
@@ -157,5 +153,3 @@ exit
 ```
 
 4. You may close the command prompt window and continue the installation of [Install Windows 10/11](#install-windows-10/11).
-
-[^1]: This only applies to Windows 10, as Windows 11 is x64 only.
