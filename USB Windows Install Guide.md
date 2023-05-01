@@ -2,7 +2,7 @@ USB: Windows 10/11 Install Steps
 ======
 
 
-Installing Windows 10 from a USB drive is a straightforward process. Before you begin, make sure you have a USB drive with at least 8 GB of storage and a Windows 10 installation media file. Follow these steps to install Windows 10:
+Installing Windows 10 or 11 from a USB drive is a straightforward process. Before you begin, make sure you have a USB drive with at least 8 GB of storage. Follow along to get the Windows 10/11 installation media file, create the bootable USB, install Windows, and configure for operation.
 
 
 ## Create a UEFI-bootable USB drive
