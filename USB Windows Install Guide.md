@@ -71,7 +71,7 @@ Installing Windows 10 or 11 from a USB drive is a straightforward process. Befor
 >You can enter the key later, after installation.
 
 
-5. Choose the Windows 10 edition you want to install and click `Next`.
+5. Choose the Windows 10/11 edition you want to install and click `Next`.
 
 
 6. Accept the license terms and click `Next`.
@@ -118,8 +118,7 @@ Installing Windows 10 or 11 from a USB drive is a straightforward process. Befor
 
 2. Use Windows Update to install any necessary drivers for your computer's hardware.
 
-
->If the drivers for wifi/ethernet are not loading you mahy have to visit the manafature website support for the motherboard model and download any available drivers that are applicable to your windows os and articulature.
+ >If the drivers for WiFi/Ethernet are not loading, you may have to visit the manufacturer's support website for the motherboard model and download any available drivers that are applicable to your Windows OS and architecture.
 
 
 3. Check for Windows updates by going to `Settings > Update & Security > Windows Update` and clicking `Check for updates`. Install any available updates.
