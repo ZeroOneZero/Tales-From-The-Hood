@@ -1,6 +1,6 @@
 # #Windows Install Guide From USB
 
-<samp>Installing Windows 10 or 11 from a USB drive is a straightforward process. Before you begin, make sure you have a USB drive with at least 8 GB of storage. Follow along to get the Windows 10/11 installation media file, create the bootable USB, install Windows, and configure her for operation.</samp>
+<samp>Installing Windows 10 or 11 from a USB drive is a straightforward process. Before you begin, make sure you have a USB drive with at least 8 GB of storage. Follow along to get the Windows installation media file, create the bootable USB, install Windows, and configure her for operation.</samp>
 
 ## #Create a UEFI-bootable USB drive
 
@@ -14,7 +14,7 @@
 
 <samp><mark style="background-color: #FFFF00">WARNING THIS ACTION WILL FORMAT ALL THE DATA ON THE SELECTED DRIVE, ENSURE YOU HAVE SELECTED THE CORRECT ONE AND HAVE THE DATA BACKED UP BEFORE CONTINUING.</mark></samp>
 
-6. Click `Next`, and the tool will download and create a bootable Windows 10/11 USB drive.
+6. Click `Next`, and the tool will download and create a bootable Windows USB drive.
 
 ## #Prepare your computer
 
@@ -28,21 +28,21 @@
 
 4. In the boot menu, select your USB drive to be the first boot device and press `Enter`.
 
-## #Install Windows 10/11
+## #Install Windows
 
 <samp><mark style="background-color: #FFFF00">ADVANCED ONLY</mark> See [<kbd>Using Diskpart to Clean Drive</kbd>](#using-diskpart-to-clean-drive) at the end for advanced instructions.</samp>
 
-1. Wait for the Windows 10/11 setup screen to appear.
+1. Wait for the Windows setup screen to appear.
 2. If prompted, select the appropriate language, time/currency format, and input method, then click `Next`.
 3. Click `Install now`.
 4. If you know the license key or have the sticker, then enter it now. If not, click on `I don't have a product key` to continue with the installation.
 
 <samp>You can enter the key later, after installation.</samp>
 
-5. Choose the Windows 10/11 edition you want to install and click `Next`.
+5. Choose the Windows edition you want to install and click `Next`.
 6. Accept the license terms and click `Next`.
 7. Choose the `Custom: Install Windows only (advanced)` installation type.
-8. Select the drive where you want to install Windows 10/11.
+8. Select the drive where you want to install Windows.
 
 <samp>It's typically the drive with the most unallocated space.</samp>
 
@@ -53,12 +53,12 @@
 
 ## #Complete the setup
 
-1. After the installation, Windows 10/11 will guide you through the setup process.
+1. After the installation, Windows will guide you through the setup process.
 2. Customize your settings, connect to a Wi-Fi network, and create or sign in with a Microsoft account.
 
 <samp>Logging in with a Microsoft account is the best way to store a digital license key for Windows on your account.</samp>
 
-3. After the setup has been completed and has had another reboot, you will be at the Windows 10/11 desktop.
+3. After the setup has been completed and has had another reboot, you will be at the Windows desktop.
 
 ## #Install drivers and updates
 
@@ -69,7 +69,7 @@
 
 3. Check for Windows updates by going to `Settings > Update & Security > Windows Update` and clicking `Check for updates`. Install any available updates.
 
-<samp>Your Windows 10/11 installation is now complete. You can remove the USB drive and start using your computer.</samp>
+<samp>Your Windows installation is now complete. You can remove the USB drive and start using your computer.</samp>
 
 # #Custom Install Procedures
 
@@ -92,9 +92,9 @@
 
 ## #Using Diskpart to Clean Drive
 
-<samp>You must have completed up to but not [<kbd>Install Windows 10/11</kbd>](#install-windows-10/11) to continue in this section.</samp>
+<samp>You must have completed up to but not [<kbd>Install Windows</kbd>](#install-windows) to continue in this section.</samp>
 
-1. Wait for the Windows 10/11 setup screen to appear.
+1. Wait for the Windows setup screen to appear.
 2. Press the `SHIFT` + `F10` keys; a command prompt window will open.
 3. Type the following and press enter after each new line.
 
@@ -125,4 +125,4 @@ list volume
 exit
 ```
 
-4. You may close the command prompt window and continue the installation at [<kbd>Install Windows 10/11</kbd>](#install-windows-10/11).
+4. You may close the command prompt window and continue the installation at [<kbd>Install Windows</kbd>](#install-windows).
