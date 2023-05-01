@@ -7,6 +7,7 @@ Installing Windows 10 or 11 from a USB drive is a straightforward process. Befor
 
 ## Create a UEFI-bootable USB drive
 
+>See [Custom Install](1) at the end for Advanced instructions.
 
 1. Download the [Windows 10](https://www.microsoft.com/en-us/software-download/windows10) or [Windows 11](https://www.microsoft.com/en-us/software-download/windows11) Media Creation Tool directly off of the Microsoft website.
 
@@ -33,6 +34,8 @@ Installing Windows 10 or 11 from a USB drive is a straightforward process. Befor
 
 
 ## Prepare your computer
+
+>See [Custom Install](2) at the end for Advanced instructions.
 
 
 1. Turn off your computer.
@@ -126,5 +129,9 @@ Installing Windows 10 or 11 from a USB drive is a straightforward process. Befor
 
 Your Windows 10/11 installation is now complete. You can remove the USB drive and start using your computer.
 
+# Custom Install Procedures
+[1]
+
+[2]
 
 [^1]: This only applies to Windows 10, as Windows 11 is x64 only.
