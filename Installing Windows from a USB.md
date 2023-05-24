@@ -1,4 +1,4 @@
-# Windows Install Guide From USB
+# Installing Windows from a USB
 
 Installing Windows 10 or 11 from a USB drive is a straightforward process. Before you begin, make sure you have a USB drive with at least 8 GB of storage. Follow along to get the Windows installation media file, create the bootable USB, install Windows, and configure your system for operation.
 
