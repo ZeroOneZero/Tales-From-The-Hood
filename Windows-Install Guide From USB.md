@@ -122,6 +122,7 @@ Installing Windows 10 or 11 from a USB drive is a straightforward process. Befor
 ```cmd
 diskpart
 list disk
+```
 
 > **IMPORTANT**: MAKE SURE THAT DISK 0 IS THE CORRECT DISK TO CLEAN. THIS ACTION IS IRREVERSIBLE.
 
@@ -141,5 +142,6 @@ set id="de94bba4-06d1-4d40-a16a-bfd50179d6ac"
 gpt attributes=0x8000000000000001
 list volume
 exit
+```
 
-4. You may close the command prompt window and continue the installation at [<kbd>Install Windows</kbd>](#install-windows).
+4. You may close the command prompt window and continue the installation at [Install Windows](#install-windows).
