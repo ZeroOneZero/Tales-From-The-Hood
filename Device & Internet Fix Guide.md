@@ -2,8 +2,6 @@
 
 *The following is a generalized guide designed to help diagnose and fix internet issues on your personal device and internet devices. Each step in this guide could potentially resolve the issue independently or in combination with others.*
 
----
-
 ## Troubleshoot a Personal Device
 
 
@@ -27,7 +25,6 @@
 
 * Excessive heat can cause performance issues. Ensure your device is not overheating and that its cooling system is functioning properly.
 
----
 
 ## Internet Device Troubleshooting
 
