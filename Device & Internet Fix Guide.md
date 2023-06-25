@@ -55,12 +55,10 @@
 
 * If you're still experiencing internet issues, it might be worth checking with your Internet Service Provider (ISP) to ensure there are no issues or outages in your area.
 
----
 
 *I hope this guide helps you get back online!*
 
-CHEERS
----
+**CHEERS**
 
 ```bash
 Written by: Rob Adams
