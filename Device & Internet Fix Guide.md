@@ -4,7 +4,6 @@
 
 ## Troubleshoot a Personal Device
 
-
 ### Verify Power
 
 * Ensure the power supply is the correct one for your device. Most power supplies in the US use 110 volts AC as the input voltage. Check the output voltage, which will provide the exact amount of power required by your device. You can often find this information on a sticker somewhere on the device, indicating the required voltage and Amps.
@@ -27,7 +26,6 @@
 
 
 ## Internet Device Troubleshooting
-
 
 ### Verify Power
 
