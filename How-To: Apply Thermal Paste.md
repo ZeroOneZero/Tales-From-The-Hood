@@ -51,3 +51,11 @@
 Congratulations! You've now taken the first of many steps towards mastering the art of applying thermal paste.
 
 > **Note:** This guide provides general steps for applying thermal paste. Always refer to manufacturer guidelines when applicable.
+
+```bash
+Written by: Rob Adams
+June 16, 2023
+1&0 Computer Care, LLC
+Festus, Missouri 63028
+[rob@zero-one-zero.com](mailto:rob@zero-one-zero.com)
+```
