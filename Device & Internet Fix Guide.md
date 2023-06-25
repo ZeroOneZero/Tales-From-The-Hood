@@ -1,11 +1,11 @@
 # Device & Internet Fix Guide
----
+
 *The following is a generalized guide designed to help diagnose and fix internet issues on your personal device and internet devices. Each step in this guide could potentially resolve the issue independently or in combination with others.*
 
 ---
 
 ## Troubleshoot a Personal Device
----
+
 
 ### Verify Power
 
@@ -30,7 +30,7 @@
 ---
 
 ## Internet Device Troubleshooting
----
+
 
 ### Verify Power
 
@@ -63,7 +63,7 @@
 ---
 *I hope this guide helps you get back online!*
 
-~CHEERS~
+CHEERS
 ---
 
 ```bash
@@ -71,5 +71,5 @@ Written by: Rob Adams
 June 16, 2023
 1&0 Computer Care, LLC
 Festus, Missouri 63028
-[rob@zero-one-zero.com](mailto:rob@zero-one-zero.com)
+rob@zero-one-zero.com
 ```
